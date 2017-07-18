@@ -1,0 +1,74 @@
+<?php include('registration.php'); ?>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registration Form</title>
+<link href="login1.css" rel="stylesheet">
+</head>
+
+
+<body>
+<h1> Registration Form</h1>
+<div class="container">
+<form method="post" action="registration.php" enctype="multipart/form-data">
+<table>
+<tr>
+<td> First Name:</td>
+<td><input type="text" name="name" class="name" required=""></td>
+</tr>
+<tr>
+<td> Middle Name:</td>
+<td><input type="text" name="name" class="name"></td>
+</tr>
+<tr>
+<td> Last Name:</td>
+<td><input type="text" name="name" class="name"  required=""></td>
+</tr>
+<tr>
+<tr>
+<td> Dob:</td>
+<td><input type="date" name="dob" class="dob" placeholder="YYYY/MM/DD" required=""></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type="radio"class="txtalign"  name="gender" value="Male">Male
+<input type="radio" class="txtalign" name="gender" value="Female">Female
+<input type="radio" class="txtalign" name="gender" value="Other">Other</td>
+</tr>
+<td> Email Id:</td>
+<td><input type="email" name="email" class="email" required=""></td>
+</tr>
+<tr>
+<td> Mobile:</td>
+<td><input type="tel" name="mobile" class="mobile" required=""></td>
+</tr>
+<tr>
+<td> Choose Username:</td>
+<td><input type="text" name="username" class="username" required=""></td>
+</tr>
+
+<tr>
+<td> Password:</td>
+<td><input type="password" name="password1" class="password" required=""></td>
+</tr>
+<tr>
+<td> Password again:</td>
+<td><input type="password" name="password2" class="password" required=""></td>
+</tr>
+<tr>
+<tr>
+<td> Upload Resume:</td>
+<td><input type="file" name="file" class="file" required=""></td>
+</tr>
+<tr>
+<td></td>
+<td><input type="submit" name="Submit" value="Register here"></td><br><br>
+</tr>
+</table>
+</form>
+</div>
+
+</body>
+
+</html>

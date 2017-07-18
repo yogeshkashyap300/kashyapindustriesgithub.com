@@ -1,0 +1,23 @@
+ body
+ {
+	 padding:20px;
+ }
+ input[type="file"]  
+{
+	color:green;
+	background-color:whitesmoke;
+	font-size:15px;
+}
+input[type="submit"]  
+{
+	color:white;
+	background-color:green;
+	text-align:center;
+	font-size:15px;
+}
+.container
+{
+	margin-left: 427px;
+text-align: initial;
+font-size:18px;
+}

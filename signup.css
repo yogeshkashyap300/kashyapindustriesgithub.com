@@ -1,0 +1,358 @@
+@media  screen  and  (max-width:959px)
+{
+}
+
+
+ul{
+    list-style: none;
+    display: block;
+}
+
+h8
+{
+    font-size: 22px;
+}
+.item img
+{
+	margin-top:29px;
+}
+.navbar-nav li:hover
+{
+    background:skyblue;
+    font-size: 18px;
+    font-family: cursive;
+}
+.upload
+{
+	margin-left:600px;
+}
+.upload input[type="file"]  
+{
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 45px;
+	margin-right:11px;
+}
+
+
+
+.dropdown-menu  li a:hover
+{  
+    background:skyblue;
+    font-size: 18px;
+}
+.containers
+{
+	background-image:url('them.jpg');
+	text-align:center;
+	margin-top:61px;
+	margin:auto;
+
+}
+
+.site-footer
+{
+    background-image:url('theme.jpg');
+    padding: 30px;
+}
+.bottom-footer
+{
+    border-top: 1px solid white;
+    margin-top:20px;
+    padding-top: 20px;
+    color:white;
+	margin:auto;
+}
+.footer-nav
+{
+  text-align: right;
+  list-style: none;
+}
+.footer-nav li
+{
+    display: inline;
+    padding: 0px 20px;
+}
+.footer-nav li:not(:first-child):before
+{
+    content: '|';
+    padding: 0px 10px;
+}
+.footer-nav a{
+    color:seagreen;
+}
+.footer-nav a:hover
+{
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.navbar-form .input-group {
+    display: inline-table;
+    vertical-align: middle;
+    margin-bottom: 6px;
+	margin:auto;
+}
+h6, .h6 {
+    font-size: 30px;
+    text-align: center;
+}
+h2
+ {
+    font-size: 30px;
+    margin-left: 65px;
+}
+
+
+.row h1
+{
+    color: cadetblue;
+    font-size: 20px;
+	text-align:center;
+}
+.row {
+    
+    margin-left: 119px;
+}
+
+.row p
+{
+color: whitesmoke;
+text-align:center;
+}
+
+#photo p
+{
+     text-align: initial;
+     color: white;
+     font-family: cursive;
+     font-size:18px;
+}
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding:0;
+	margin:auto;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+	margin:auto;
+}
+
+/* footer menu */
+
+.social-network a.icoRss:hover {
+	background-color:black;
+	
+}
+.social-network a.icoFacebook:hover {
+	background-color:pink;
+	
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+	
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+	
+}
+.social-network a.icoVimeo:hover {
+background-color:#0590B8;
+	
+}
+.social-network a.icoLinkedin:hover {
+background-color:#007bb7;
+	
+}
+.social-network a.phone:hover {
+background-color:lightgreen;
+	
+}
+.social-network a.envelope:hover {
+background-color:#007bb7;
+	
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+    background-color:darkgreen;
+	margin:auto;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+	margin:auto;
+}
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.9s;
+	-moz-transition: all 0.9s;
+	-o-transition: all 0.9s;
+	-ms-transition: all 0.9s;
+	transition: all 1.6s;
+}
+.social-circle li a.phone:hover i{
+
+	transition:rotate(360deg);
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1.6s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
+}
+
+.col-md-7 input[type=text], select, textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid:black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color:black;
+	margin:auto;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: black;
+}
+.gm-style .gm-style-iw {
+    font-weight: 300;
+    font-size: 13px;
+    color: black;
+}
+
+
+h7{
+   font-size: 40px;
+   margin-left:511px;
+   }
+h9
+{
+    color: black;
+}
+
+.navbar-inverse .navbar-brand {
+    color: forestgreen;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+
+
+button.close 
+{
+    font-size: 30px;
+    color: black !important;
+    z-index: 999;
+    display: block;
+    top: 0px;
+    right: 10px;
+    position: relative;
+}
+.map
+{
+	margin-left:221px;
+	margin:auto;
+}
+
+.copyright 
+{
+font-family: cursive;
+overflow: hidden;
+color:white;
+text-align: center;
+margin-right: 348px;
+margin-top:26px;
+margin:auto;
+}
+.footer-nav a {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.col-md-4 {
+    width: 37.333%;
+}
+
+.col-md-7
+ {
+    text-align:center;
+}
+ h8
+{
+   margin-left:500px;
+}
+.row ul li 
+{
+	margin-left:50px;
+}
+p {
+    margin: 0 0 10px;
+    font-size: 40px;
+    color: white;
+}
+
+label
+{
+	color:black;
+}
+.row p
+{ 
+    font-size:18px;
+}
+img p
+{
+	font-size:18px;
+}
+form label
+{
+	color:white;
+}
+.copyright p
+{
+	font-size:18px;
+}
+.navbar-form .input-group .input-group-btn, .navbar-form .input-group .form-control {
+  
+    margin-top: 5px;
+}
+.row ul li
+{
+	font-size:10px;
+}
